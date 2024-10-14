@@ -1,7 +1,7 @@
-﻿## rpcs3_cht
+﻿## rpcs3_chs
 
-# 適用於[**官方**](https://rpcs3.net/)版本的語言檔。
+# 适用于[**官方**](https://rpcs3.net/)版本的语言文件。
 
-1) 放置 rpcs3 主目錄 例;`qt\translations\rpcs3_zh.qm`
+1. 将`translations`放入到RPCS3下的qt6目录中， 例如： qt6\translations\rpcs3_zh_CN.qm
 
-2) 開啟模擬器*選取*主選單的 `Help > Language > Chinese` 再重新啟動。
+2. 打开模拟器，选取菜单栏的 Help > Language > Chinese 应用。
