@@ -6726,19 +6726,19 @@ Space Needed: %0 KB</source>
         <location filename="rpcs3qt/localized_emu.h" line="147"/>
         <source>Error - Save data corrupted</source>
         <comment>Savedata Error</comment>
-        <translation>錯誤 - 儲存資料已損壞</translation>
+        <translation>错误 - 存档数据已损坏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="148"/>
         <source>Error - Failed to save or load</source>
         <comment>Savedata Error</comment>
-        <translation>錯誤 - 無法儲存或讀取</translation>
+        <translation>错误 - 保存或载入失败</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="149"/>
         <source>Error - Save data cannot be found</source>
         <comment>Savedata Error</comment>
-        <translation>錯誤 - 未找到儲存資料</translation>
+        <translation>错误 - 未找到存档数据</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="150"/>
@@ -7771,13 +7771,13 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="621"/>
         <source>Save Data</source>
-        <translation>储存资料</translation>
+        <translation>存档数据</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="624"/>
         <source>Manage save data</source>
         <oldsource>Manage Save Data</oldsource>
-        <translation>管理储存资料</translation>
+        <translation>管理存档数据</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="632"/>
@@ -7793,13 +7793,13 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="640"/>
         <source>User Accounts</source>
-        <translation>使用者帐号</translation>
+        <translation>用户账号</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="643"/>
         <source>Manage user accounts</source>
         <oldsource>Manage User Accounts</oldsource>
-        <translation>管理使用者帐号</translation>
+        <translation>管理用户账号</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="648"/>
@@ -11021,7 +11021,7 @@ No graphics will be rendered.</source>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="108"/>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="614"/>
         <source>Select an item to view details</source>
-        <translation>选定项目以检视内容</translation>
+        <translation>选定一个项目以查看详情</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="118"/>
@@ -11031,12 +11031,12 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="120"/>
         <source>View Folder</source>
-        <translation>检视资料夹</translation>
+        <translation>查看目录</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="237"/>
         <source>Loading save data, please wait...</source>
-        <translation>正在载入储存资料，请稍候...</translation>
+        <translation>正在载入存档数据，请稍候...</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="237"/>
@@ -11046,7 +11046,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="237"/>
         <source>Loading save data</source>
-        <translation>载入储存资料</translation>
+        <translation>载入存档数据</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="507"/>
@@ -14088,7 +14088,7 @@ Stop the emulator now?</source>
     <name>rpcn_account_edit_dialog</name>
     <message>
         <source>RPCN: Edit Account</source>
-        <translation>RPCN: 编辑帐号</translation>
+        <translation>RPCN: 编辑账号</translation>
     </message>
     <message>
         <source>Username:</source>
