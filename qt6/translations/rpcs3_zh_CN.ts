@@ -454,7 +454,7 @@ Causes some software to behave differently than on retail hardware.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="40"/>
         <source>Disables the loading and saving of shaders from and to the shader cache in the data directory.</source>
-        <translation>禁止从资料目录着色快取中存取着色。</translation>
+        <translation>禁止从资料目录着色缓存中存取着色。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="43"/>
@@ -637,7 +637,7 @@ If unsure, use this option.</source>
 This is by far the fastest option and should always be used.
 Should you face compatibility issues, fall back to one of the Interpreters and retry.
 If unsure, use this option.</oldsource>
-        <translation>在首次执行游戏之前，使用“ LLVM 反编译” 将一次反编译和快取游戏的 PPU 代码。
+        <translation>在首次执行游戏之前，使用“ LLVM 反编译” 将一次反编译和缓存游戏的 PPU 代码。
 这是迄今为止最快的选项，应该始终使用。
 如果遇到兼容性问题，退回其中一项“直译器”重试。
 如果不确定，请使用此选项。</translation>
@@ -673,7 +673,7 @@ If you experience issues, use the ASMJIT Recompiler.</source>
         <oldsource>This is the fastest option with very good compatibility.
 Recompiles the game&apos;s SPU LLVM cache before running which adds extra start-up time.
 If you experience issues, use the ASMJIT Recompiler.</oldsource>
-        <translation>在执行之前，使用“ LLVM 反编译”和快取游戏的 SPU 代码，将增加启动时间。
+        <translation>在执行之前，使用“ LLVM 反编译”和缓存游戏的 SPU 代码，将增加启动时间。
 这是兼容性最好的最快选项。
 如果遇到问题，请使用“ASMJIT 反编译”。</translation>
     </message>
@@ -793,7 +793,7 @@ Never use this.</source>
         <source>Accurately processes PPU DCBZ instruction.
 In addition, when combined with Accurate SPU DMA, SPU PUT cache line accesses will be processed atomically.</source>
         <translation>准确处理 PPU DCBZ 指令。
-此外，当与准确 SPU DMA 组合使用时，将自动处理 SPU PUT 快取列存取。</translation>
+此外，当与准确 SPU DMA 组合使用时，将自动处理 SPU PUT 缓存列存取。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="30"/>
@@ -898,13 +898,13 @@ May cause texture corruption in some cases.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="118"/>
         <source>Forces texture flushing even in situations where it is not necessary/correct. Known to cause visual artifacts, but useful for debugging certain texture cache issues.</source>
-        <translation>即使没必要修正的情况下也会强制清理纹理。已知会导致视觉瑕疵，但对调试某些纹理快取问题很有用。</translation>
+        <translation>即使没必要修正的情况下也会强制清理纹理。已知会导致视觉瑕疵，但对调试某些纹理缓存问题很有用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="120"/>
         <source>When enabled, PPU atomic operations will operate on entire cache line data, as opposed to a single 64bit block of memory when disabled.
 Numerical values control whether or not to enable the accurate version based on the atomic operation&apos;s length.</source>
-        <translation>启用后，PPU 原子作业将在整个快取列的资料进行运算，与禁用时的单个 64 位元记忆区块相反。
+        <translation>启用后，PPU 原子作业将在整个缓存列的资料进行运算，与禁用时的单个 64 位元记忆区块相反。
 数值根据原子作业的长度控制是否启用准确的版本。</translation>
     </message>
     <message>
@@ -1433,7 +1433,7 @@ If unsure, don&apos;t use this option.</source>
         <source>Disables the vertex cache.
 Might resolve missing or flickering graphics output.
 May degrade performance.</source>
-        <translation>停用顶点快取。
+        <translation>停用顶点缓存。
 可能解决丢失或闪烁的图形输出。
 可能会降低效能。</translation>
     </message>
@@ -1497,7 +1497,7 @@ Use this if you do not want to deal with graphics pop-in, or for testing before 
 If a shader is not found in the cache, nothing will be rendered for this shader until it has compiled.
 You may experience graphics pop-in.</source>
         <translation>这是建议的选项。
-如果在快取中未找到着色，则在编译之前不会为该着色呈现任何内容。
+如果在缓存中未找到着色，则在编译之前不会为该着色呈现任何内容。
 您可能会遇到图形弹出视窗。</translation>
     </message>
     <message>
@@ -1505,7 +1505,7 @@ You may experience graphics pop-in.</source>
         <source>Hybrid rendering mode.
 If a shader is not found in the cache, the interpreter will be used to render approximated graphics for this shader until it has compiled.</source>
         <translation>混合渲染模式。
-如果在快取中找不到着色，则将使用直译器来渲染此着色的近似图形，直到编译完成为止。</translation>
+如果在缓存中找不到着色，则将使用直译器来渲染此着色的近似图形，直到编译完成为止。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="183"/>
@@ -1922,8 +1922,8 @@ Games can use the cache folder to temporarily store data outside of system memor
 This setting is only available in the global configuration.</source>
         <oldsource>Automatically removes older files from disk cache on boot if it grows larger than the specified value.
 Games can use the cache folder to temporarily store data outside of system memory. It is not used for long-term storage.</oldsource>
-        <translation>如果旧文件大于指定值，则在启动时自动从磁盘中删除快取旧文件。
-游戏使用快取资料夹临时储存系统记忆之外的资料，但不用于长期储存。
+        <translation>如果旧文件大于指定值，则在启动时自动从磁盘中删除缓存旧文件。
+游戏使用缓存资料夹临时储存系统记忆之外的资料，但不用于长期储存。
 
 此设定仅在全局配置中可用。</translation>
     </message>
@@ -2475,7 +2475,7 @@ It might be blocked by another application.</source>
     <message>
         <location filename="rpcs3qt/cg_disasm_window.cpp" line="66"/>
         <source>Open &amp;Cg binary program</source>
-        <translation>开启 Cg 二进位程序(&amp;G)</translation>
+        <translation>开启 Cg 二进制程序(&amp;G)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cg_disasm_window.cpp" line="80"/>
@@ -4755,13 +4755,13 @@ Falling back to local database.
         <location filename="rpcs3qt/game_list_frame.cpp" line="2003"/>
         <source>Created LLVM Caches for %n title(s)</source>
         <translation>
-            <numerusform>已为 %n 标题建立 LLVM 快取</numerusform>
+            <numerusform>已为 %n 标题建立 LLVM 缓存</numerusform>
         </translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1207"/>
         <source>&amp;Remove HDD1 Cache</source>
-        <translation>&amp;删除 HDD1 快取</translation>
+        <translation>&amp;删除 HDD1 缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1471"/>
@@ -4788,7 +4788,7 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1119"/>
         <source>&amp;Create LLVM Cache</source>
-        <translation>&amp;建立 LLVM 快取</translation>
+        <translation>&amp;建立 LLVM 缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1123"/>
@@ -4848,22 +4848,22 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1173"/>
         <source>&amp;Remove Shaders Cache</source>
-        <translation>删除着色快取(&amp;S)</translation>
+        <translation>删除着色缓存(&amp;S)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1179"/>
         <source>&amp;Remove PPU Cache</source>
-        <translation>删除 &amp;PPU 快取</translation>
+        <translation>删除 &amp;PPU 缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1185"/>
         <source>&amp;Remove SPU Cache</source>
-        <translation>删除 SP&amp;U 快取</translation>
+        <translation>删除 SP&amp;U 缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1217"/>
         <source>&amp;Remove All Caches</source>
-        <translation>删除全部快取(&amp;A)</translation>
+        <translation>删除全部缓存(&amp;A)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1224"/>
@@ -4880,7 +4880,7 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1224"/>
         <source>Remove all caches?</source>
-        <translation>删除全部的快取?</translation>
+        <translation>删除全部的缓存?</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1237"/>
@@ -5061,7 +5061,7 @@ Current Free Disk Space: %1
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1487"/>
         <source>Remove caches and custom configs</source>
-        <translation>删除快取与自定义配置</translation>
+        <translation>删除缓存与自定义配置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1514"/>
@@ -5075,7 +5075,7 @@ Path: %1
 Caches and custom configs have been left intact.</source>
         <translation>无法从磁盘中删除 %0 !
 路径: %1
-快取与自定义配置未做更动。</translation>
+缓存与自定义配置未做更动。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1516"/>
@@ -5156,22 +5156,22 @@ Your configuration will revert to the global pad settings.</source>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1736"/>
         <source>Remove shaders cache?</source>
-        <translation>删除着色快取?</translation>
+        <translation>删除着色缓存?</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1787"/>
         <source>Remove PPU cache?</source>
-        <translation>删除 PPU 快取?</translation>
+        <translation>删除 PPU 缓存?</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1838"/>
         <source>Remove SPU cache?</source>
-        <translation>删除 SPU 快取?</translation>
+        <translation>删除 SPU 缓存?</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1889"/>
         <source>Remove HDD1 cache?</source>
-        <translation>删除 HDD1 快取?</translation>
+        <translation>删除 HDD1 缓存?</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1934"/>
@@ -5193,12 +5193,12 @@ Your configuration will revert to the global pad settings.</source>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1934"/>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1945"/>
         <source>LLVM Cache Batch Creation</source>
-        <translation>LLVM 快取批次建立</translation>
+        <translation>LLVM 缓存批次建立</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1943"/>
         <source>Creating all LLVM caches</source>
-        <translation>建立全部的 LLVM 快取</translation>
+        <translation>建立全部的 LLVM 缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1969"/>
@@ -5206,7 +5206,7 @@ Your configuration will revert to the global pad settings.</source>
 Progress: %1/%2. Compiling caches for VSH...</source>
         <comment>Second line after main label</comment>
         <translation>%0
-进度: %1/%2。正在编译 VSH 快取...</translation>
+进度: %1/%2。正在编译 VSH 缓存...</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1985"/>
@@ -5214,7 +5214,7 @@ Progress: %1/%2. Compiling caches for VSH...</source>
 Progress: %1/%2. Compiling caches for %3...</source>
         <comment>Second line after main label</comment>
         <translation>%0
-进度: %1/%2。正在编译 %3 快取...</translation>
+进度: %1/%2。正在编译 %3 缓存...</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2004"/>
@@ -5230,7 +5230,7 @@ Progress: %1/%2. Compiling caches for %3...</source>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2025"/>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2029"/>
         <source>PPU Cache Batch Removal</source>
-        <translation>PPU 快取批次删除</translation>
+        <translation>PPU 缓存批次删除</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2025"/>
@@ -5244,24 +5244,24 @@ Progress: %1/%2. Compiling caches for %3...</source>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2029"/>
         <source>Removing all PPU caches</source>
-        <translation>删除全部的 PPU 快取</translation>
+        <translation>删除全部的 PPU 缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2057"/>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2111"/>
         <source>%0/%1 caches cleared</source>
-        <translation>%0/%1 快取已清除</translation>
+        <translation>%0/%1 缓存已清除</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2079"/>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2083"/>
         <source>SPU Cache Batch Removal</source>
-        <translation>SPU 快取批次删除</translation>
+        <translation>SPU 缓存批次删除</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2083"/>
         <source>Removing all SPU caches</source>
-        <translation>删除全部的 SPU 快取</translation>
+        <translation>删除全部的 SPU 缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2131"/>
@@ -5299,17 +5299,17 @@ Progress: %1/%2. Compiling caches for %3...</source>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2241"/>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2245"/>
         <source>Shader Cache Batch Removal</source>
-        <translation>着色快取批次删除</translation>
+        <translation>着色缓存批次删除</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2245"/>
         <source>Removing all shader caches</source>
-        <translation>删除全部的着色快取</translation>
+        <translation>删除全部的着色缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2273"/>
         <source>%0/%1 shader caches cleared</source>
-        <translation>%0/%1 着色快取已清除</translation>
+        <translation>%0/%1 着色缓存已清除</translation>
     </message>
 </context>
 <context>
@@ -7483,7 +7483,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="172"/>
         <source>Boot Recent</source>
-        <translation>近期启动</translation>
+        <translation>最近启动</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="183"/>
@@ -7508,7 +7508,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="236"/>
         <source>USB Devices</source>
-        <translation>USB 装置</translation>
+        <translation>USB设备</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="266"/>
@@ -7590,7 +7590,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="464"/>
         <source>Install Firmware</source>
-        <translation>安装 固件/固件</translation>
+        <translation>安装固件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="467"/>
@@ -7824,7 +7824,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="677"/>
         <source>Decrypt PS3 Binaries</source>
-        <translation>解密 PS3 二进位</translation>
+        <translation>解密 PS3 二进制</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="682"/>
@@ -8320,7 +8320,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <location filename="rpcs3qt/main_window.cpp" line="152"/>
         <source>&amp;Play last played game</source>
         <oldsource>&amp;Play last played game	Ctrl+R</oldsource>
-        <translation>开始上次玩过的游戏(&amp;P)</translation>
+        <translation>开始最近玩过的游戏(&amp;P)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="205"/>
@@ -8496,7 +8496,7 @@ Path:
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="819"/>
         <source>To see the changelog, please click &quot;Show Details&quot;.</source>
-        <translation>要观看更新日志，请点选 &quot;显示详细资料&quot;。</translation>
+        <translation>要查看更新日志，请点选 &quot;显示详细资料&quot;。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="820"/>
@@ -8693,7 +8693,7 @@ Please wait...</source>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1630"/>
         <source>All Binaries (*.bin *.BIN *.self *.SELF *.sprx *.SPRX *.sdat *.SDAT *.edat *.EDAT);;BIN files (*.bin *.BIN);;SELF files (*.self *.SELF);;SPRX files (*.sprx *.SPRX);;SDAT/EDAT files (*.sdat *.SDAT *.edat *.EDAT);;All files (*.*)</source>
-        <translation>全部二进位 (*.bin *.BIN *.self *.SELF *.sprx *.SPRX *.sdat *.SDAT *.edat *.EDAT);;BIN 文件 (*.bin *.BIN);;SELF 文件 (*.self *.SELF);;SPRX 文件 (*.sprx *.SPRX);;SDAT/EDAT 文件 (*.sdat *.SDAT *.edat *.EDAT);;全部文件 (*.*)</translation>
+        <translation>全部二进制文件 (*.bin *.BIN *.self *.SELF *.sprx *.SPRX *.sdat *.SDAT *.edat *.EDAT);;BIN 文件 (*.bin *.BIN);;SELF 文件 (*.self *.SELF);;SPRX 文件 (*.sprx *.SPRX);;SDAT/EDAT 文件 (*.sdat *.SDAT *.edat *.EDAT);;全部文件 (*.*)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1654"/>
@@ -8909,7 +8909,7 @@ Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus sof
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1630"/>
         <source>Select binary files</source>
-        <translation>选择二进位文件</translation>
+        <translation>选择二进制文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1662"/>
@@ -9024,12 +9024,12 @@ Check anyway?</source>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="3339"/>
         <source>Cache Cleared</source>
-        <translation>快取已清除</translation>
+        <translation>缓存已清除</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="3339"/>
         <source>Disk cache was cleared successfully</source>
-        <translation>磁盘快取已成功清除</translation>
+        <translation>磁盘缓存已成功清除</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="3343"/>
@@ -9039,7 +9039,7 @@ Check anyway?</source>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="3343"/>
         <source>Could not remove disk cache</source>
-        <translation>无法删除磁盘快取</translation>
+        <translation>无法删除磁盘缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="3354"/>
@@ -9049,7 +9049,7 @@ Check anyway?</source>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="3354"/>
         <source>Remove firmware cache?</source>
-        <translation>删除固件快取?</translation>
+        <translation>删除固件缓存?</translation>
     </message>
 </context>
 <context>
@@ -10462,7 +10462,7 @@ Log:
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1069"/>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1281"/>
         <source>To see the error log, please click &quot;Show Details&quot;.</source>
-        <translation>要观看错误日志，请点选 &quot;显示详细资料&quot;。</translation>
+        <translation>要查看错误日志，请点选 &quot;显示详细资料&quot;。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1070"/>
@@ -11415,7 +11415,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2649"/>
         <source>Disable Vertex Cache</source>
-        <translation>停用顶点快取</translation>
+        <translation>停用顶点缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="967"/>
@@ -11650,17 +11650,17 @@ No graphics will be rendered.</source>
         <location filename="rpcs3qt/settings_dialog.ui" line="2050"/>
         <source>Disk Cache</source>
         <oldsource>Disk cache</oldsource>
-        <translation>磁盘快取</translation>
+        <translation>磁盘缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2056"/>
         <source>Clear cache automatically</source>
-        <translation>自动清理快取</translation>
+        <translation>自动清理缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2063"/>
         <source>Cache size: 3072 MB</source>
-        <translation>快取大小: 3072 MB</translation>
+        <translation>缓存大小: 3072 MB</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2142"/>
@@ -11762,7 +11762,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2642"/>
         <source>Disable On-Disk Shader Cache</source>
-        <translation>停用磁盘着色器快取</translation>
+        <translation>停用磁盘着色器缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2656"/>
@@ -12449,7 +12449,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4267"/>
         <source>Accurate Cache Line Stores</source>
-        <translation>准确的快取列储存</translation>
+        <translation>准确的缓存列储存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4204"/>
@@ -13689,7 +13689,7 @@ Do you want to update to the latest official RPCS3 version?</source>
     <message>
         <location filename="rpcs3qt/update_manager.cpp" line="318"/>
         <source>To see the changelog, please click &quot;Show Details&quot;.</source>
-        <translation>要观看更新日志，请点选 &quot;显示详细资料&quot;。</translation>
+        <translation>要查看更新日志，请点选 &quot;显示详细资料&quot;。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/update_manager.cpp" line="319"/>
