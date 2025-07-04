@@ -850,14 +850,14 @@ If unsure, don&apos;t use this option.</source>
         <location filename="rpcs3qt/tooltips.h" line="110"/>
         <source>Provides a graphical overlay of various debugging information.
 If unsure, don&apos;t use this option.</source>
-        <translation>提供各种调试讯息的图形重叠。
+        <translation>提供各种调试信息的图形重叠。
 如果不确定，请勿使用此选项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="111"/>
         <source>Dump game shaders to file. Only useful to developers.
 If unsure, don&apos;t use this option.</source>
-        <translation>倾印游戏着色器文件。 只对开发人员有用。
+        <translation>转储游戏着色器文件。 只对开发人员有用。
 如果不确定，请勿使用此选项。</translation>
     </message>
     <message>
@@ -1202,7 +1202,7 @@ Currently this may not work every time.</source>
 When disabled, regular Qt dialogs are used instead.
 Currently, the on-screen keyboard only supports the English key layout.</source>
         <translation>允许游戏视窗中使用游戏控制器与本体 HUD 互动。
-停用时，将使用正常的 QT 讯息框。
+停用时，将使用正常的 QT 信息框。
 目前在荧幕上的键盘仅支持英文按键布局。</translation>
     </message>
     <message>
@@ -1247,7 +1247,7 @@ In that case it can be helpful to pause the emulation whenever the home menu is 
     <message>
         <location filename="rpcs3qt/tooltips.h" line="150"/>
         <source>Controls the amount of information displayed on the performance overlay.</source>
-        <translation>控制显示在效能重叠上的讯息数量。</translation>
+        <translation>控制显示在效能重叠上的信息数量。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="151"/>
@@ -1292,21 +1292,21 @@ The performance overlay refresh rate does not affect the frame graph statistics 
         <location filename="rpcs3qt/tooltips.h" line="159"/>
         <source>Shows a background image during the native shader loading dialog/loading screen.
 By default the used image will be &lt;gamedir&gt;/PS3_GAME/PIC1.PNG or &lt;gamedir&gt;/PS3_GAME/PIC0.PNG.</source>
-        <translation>在本体着色器读取讯息框中读取画面期间显示背景图片。
+        <translation>在本体着色器读取信息框中读取画面期间显示背景图片。
 预设情况下，使用的图片将是 &lt;gamedir&gt;/PS3_GAME/PIC1.PNG 或 &lt;gamedir&gt;/PS3_GAME/PIC0.PNG。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="160"/>
         <source>Changes the background image darkening effect strength of the native shader loading dialog.
 This may be used to improve readability and/or aesthetics.</source>
-        <translation>更改本体着色器读取讯息框中的背景图片变暗效果的强度。
+        <translation>更改本体着色器读取信息框中的背景图片变暗效果的强度。
 这可以用于提高辨识度及美观性。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="161"/>
         <source>Changes the background image blur effect strength of the native shader loading dialog.
 This may be used to improve readability and/or aesthetics.</source>
-        <translation>更改本体着色器读取讯息框中的背景图片模糊效果的强度。
+        <translation>更改本体着色器读取信息框中的背景图片模糊效果的强度。
 这可以用于提高辨识度及美观性。</translation>
     </message>
     <message>
@@ -1603,7 +1603,7 @@ Set 0 in order to remove the limit.</oldsource>
         <source>Changes the overall look of RPCS3.
 Choose a stylesheet and click Apply to change between styles.</source>
         <translation>更改 RPCS3 的整体外观。
-选择一个“风格”并点击“套用”风格之间切换。</translation>
+选择一个“风格”并点击“应用”风格之间切换。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="200"/>
@@ -1613,32 +1613,32 @@ Choose a stylesheet and click Apply to change between styles.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="201"/>
         <source>Shows a confirmation dialog when the game window is being closed.</source>
-        <translation>关闭游戏视窗时显示确定讯息。</translation>
+        <translation>关闭游戏视窗时显示确定信息。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="202"/>
         <source>Shows a confirmation dialog when a game was booted while another game is running.</source>
-        <translation>当另一项游戏正启动执行时显示确定讯息。</translation>
+        <translation>当另一项游戏正启动执行时显示确定信息。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="203"/>
         <source>Shows a dialog when packages were installed successfully.</source>
-        <translation>成功安装软件时显示讯息。</translation>
+        <translation>成功安装软件时显示信息。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="204"/>
         <source>Shows a dialog when firmware was installed successfully.</source>
-        <translation>成功安装固件后显示讯息。</translation>
+        <translation>成功安装固件后显示信息。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="205"/>
         <source>Shows a dialog when obsolete settings were found.</source>
-        <translation>发现过时的设定时显示讯息。</translation>
+        <translation>发现过时的设定时显示信息。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="206"/>
         <source>Shows a dialog in the game pad configuration when the same button was assigned twice.</source>
-        <translation>当同一按钮被指派两次时，在游戏控制器配置中显示讯息。</translation>
+        <translation>当同一按钮被指派两次时，在游戏控制器配置中显示信息。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="207"/>
@@ -1903,7 +1903,7 @@ In these cases having the cross button assigned can often lead to confusion.</so
         <oldsource>The button used for enter/accept/confirm in system dialogs.
 Change this to use the circle button instead, which is the default configuration on Japanese systems and in many Japanese games.
 In these cases having the cross button assigned can often lead to confusion.</oldsource>
-        <translation>用于进入、接受、确定系统讯息框中的按钮。
+        <translation>用于进入、接受、确定系统信息框中的按钮。
 将其更改为使用 ○ 按钮，这是日版系统及许多日版游戏中的预设设定。
 在这些情况下，指定 ╳ 按钮通常会导致混淆。</translation>
     </message>
@@ -2281,7 +2281,7 @@ To bind mouse movement to a button or joystick, click on the desired button to a
         <source>To use auto pause: enter the ID(s) of a function or a system call.
 Restart of the game is required to apply. You can enable/disable this in the settings.</source>
         <translation>使用 Auto Pause: 输入一个函数或系统呼叫 ID。
-必须重新启动游戏才会套用。 您也可以启用或停用此设定。</translation>
+必须重新启动游戏才会应用。 您也可以启用或停用此设定。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="24"/>
@@ -2520,7 +2520,7 @@ It might be blocked by another application.</source>
     </message>
     <message>
         <source>Apply</source>
-        <translation>套用</translation>
+        <translation>应用</translation>
     </message>
     <message>
         <source>Cheat Search</source>
@@ -2888,7 +2888,7 @@ Applies on all breakpoints in all threads regardless if set before or after chan
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="24"/>
         <source>SPU ELF Dumper</source>
-        <translation>SPU ELF 倾印</translation>
+        <translation>SPU ELF 转储</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="34"/>
@@ -5025,7 +5025,7 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1410"/>
         <source>&amp;Copy Info</source>
-        <translation>复制讯息(&amp;I)</translation>
+        <translation>复制信息(&amp;I)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1411"/>
@@ -7496,6 +7496,11 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <translation>固件</translation>
     </message>
     <message>
+        <location filename="rpcs3qt/main_window.ui" line="204"/>
+        <source>Boot Recent Savestate</source>
+        <translation>启动最近的存档</translation>
+    </message>
+    <message>
         <location filename="rpcs3qt/main_window.ui" line="221"/>
         <source>Emulation</source>
         <translation>模拟</translation>
@@ -7925,6 +7930,11 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <location filename="rpcs3qt/main_window.ui" line="794"/>
         <source>List Freeze</source>
         <translation>停用列表</translation>
+    </message>
+    <message>
+        <location filename="rpcs3qt/main_window.ui" line="1423"/>
+        <source>Savestates</source>
+        <translation>存档</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="802"/>
@@ -8699,7 +8709,7 @@ Please wait...</source>
         <location filename="rpcs3qt/main_window.cpp" line="1654"/>
         <source>Hint: KLIC (KLicense key) is a 16-byte long string. (32 hexadecimal characters, can be prefixed with &quot;KLIC=0x&quot; from the log message)
 And is logged with some sceNpDrm* functions when the game/application which owns &quot;%0&quot; is running.</source>
-        <translation>提示: KLIC (KLicense key) 是一个 16 位元组长的字串。 (32 十六进位字元，可以在日志讯息中加上 &quot;KLIC=0x&quot; 前缀)
+        <translation>提示: KLIC (KLicense key) 是一个 16 位元组长的字串。 (32 十六进位字元，可以在日志信息中加上 &quot;KLIC=0x&quot; 前缀)
 并在拥有 &quot;%0&quot; 的游戏或应用程序正在执行时使用某些 sceNpDrm* 函数进行记录。</translation>
     </message>
     <message>
@@ -10660,7 +10670,7 @@ Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed
     <message>
         <location filename="rpcs3qt/recvmessage_dialog_frame.cpp" line="38"/>
         <source>Choose message:</source>
-        <translation>选取讯息:</translation>
+        <translation>选取信息:</translation>
     </message>
     <message>
         <location filename="rpcs3qt/recvmessage_dialog_frame.cpp" line="49"/>
@@ -10680,12 +10690,12 @@ Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed
     <message>
         <location filename="rpcs3qt/recvmessage_dialog_frame.cpp" line="68"/>
         <source>Error receiving a message!</source>
-        <translation>接收讯息时出错!</translation>
+        <translation>接收信息时出错!</translation>
     </message>
     <message>
         <location filename="rpcs3qt/recvmessage_dialog_frame.cpp" line="68"/>
         <source>You must select a message!</source>
-        <translation>您必须选择一条讯息!</translation>
+        <translation>您必须选择一条信息!</translation>
     </message>
 </context>
 <context>
@@ -10873,7 +10883,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/save_data_info_dialog.cpp" line="14"/>
         <source>Save Data Information</source>
-        <translation>储存资料讯息</translation>
+        <translation>储存资料信息</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_data_info_dialog.cpp" line="23"/>
@@ -10917,17 +10927,17 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/save_data_list_dialog.cpp" line="22"/>
         <source>Save Data Interface (Delete)</source>
-        <translation>储存资料讯息 (删除)</translation>
+        <translation>储存资料信息 (删除)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_data_list_dialog.cpp" line="26"/>
         <source>Save Data Interface (Load)</source>
-        <translation>储存资料讯息 (读取)</translation>
+        <translation>储存资料信息 (读取)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_data_list_dialog.cpp" line="30"/>
         <source>Save Data Interface (Save)</source>
-        <translation>储存资料讯息 (储存)</translation>
+        <translation>储存资料信息 (储存)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_data_list_dialog.cpp" line="46"/>
@@ -11165,7 +11175,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/sendmessage_dialog_frame.cpp" line="66"/>
         <source>Error sending a message!</source>
-        <translation>发送讯息时出错!</translation>
+        <translation>发送信息时出错!</translation>
     </message>
     <message>
         <location filename="rpcs3qt/sendmessage_dialog_frame.cpp" line="66"/>
@@ -11451,7 +11461,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="1109"/>
         <source>Dump to File</source>
-        <translation>倾印至文件</translation>
+        <translation>转储至文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="1102"/>
@@ -12173,7 +12183,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3673"/>
         <source>Apply</source>
-        <translation>套用</translation>
+        <translation>应用</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3683"/>
@@ -12228,32 +12238,32 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3867"/>
         <source>Show Exit Game Dialog</source>
-        <translation>显示结束游戏讯息</translation>
+        <translation>显示结束游戏信息</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3874"/>
         <source>Show Boot Game Dialog</source>
-        <translation>显示启动游戏讯息</translation>
+        <translation>显示启动游戏信息</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3881"/>
         <source>Show PKG Installation Dialog</source>
-        <translation>显示 PKG 安装讯息</translation>
+        <translation>显示 PKG 安装信息</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3888"/>
         <source>Show PUP Installation Dialog</source>
-        <translation>显示 PUP 安装讯息</translation>
+        <translation>显示 PUP 安装信息</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3895"/>
         <source>Show Obsolete Settings Dialog</source>
-        <translation>显示过时设定讯息</translation>
+        <translation>显示过时设定信息</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3902"/>
         <source>Show Duplicate Buttons Dialog</source>
-        <translation>显示重复按钮讯息</translation>
+        <translation>显示重复按钮信息</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3909"/>
@@ -13474,7 +13484,7 @@ Please contact a developer.</source>
     <message>
         <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="828"/>
         <source>&amp;Copy Info</source>
-        <translation>复制讯息(&amp;I)</translation>
+        <translation>复制信息(&amp;I)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="832"/>
@@ -13619,7 +13629,7 @@ Please contact a developer.</source>
         <source>An error occurred during the auto-updating process.
 Check the log for more information.</source>
         <translation>在自动更新过程中出现错误。
-检查日志以取得更多讯息。</translation>
+检查日志以取得更多信息。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/update_manager.cpp" line="195"/>
@@ -13998,7 +14008,7 @@ Stop the emulator now?</source>
     <message>
         <location filename="rpcs3qt/welcome_dialog.ui" line="180"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;RPCS3 does not condone piracy. You must dump your own games.&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;RPCS3 绝不纵容盗版，你必须倾印自己的游戏。&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;RPCS3 绝不纵容盗版，你必须转储自己的游戏。&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="rpcs3qt/welcome_dialog.ui" line="190"/>
@@ -14062,7 +14072,7 @@ Stop the emulator now?</source>
         <translation>
 			&lt;p style=&quot;white-space: nowrap;&quot;&gt;
 				在开始使用前，您需要安装 &lt;span style=&quot;font-weight:600;&quot;&gt;PlayStation 3 固件&lt;/span&gt;.&lt;br&gt;
-				请参阅 &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;快速入门&lt;/a&gt; 指南，了解更多讯息可在官方网站上找到。&lt;br&gt;
+				请参阅 &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;快速入门&lt;/a&gt; 指南，了解更多信息可在官方网站上找到。&lt;br&gt;
 				如果您还有其他疑问，请参阅 &lt;a %0 href=&quot;https://rpcs3.net/faq&quot;&gt;常见问题&lt;/a&gt;.&lt;br&gt;
 				除此之外，也可以进一步的讨论与支持，到我们的 &lt;a %0 href=&quot;https://forums.rpcs3.net&quot;&gt;论坛&lt;/a&gt; 或者在 &lt;a %0 href=&quot;https://discord.me/RPCS3&quot;&gt;Discord&lt;/a&gt; 服务器。
 			&lt;/p&gt;
@@ -14827,7 +14837,7 @@ Press ESC to cancel</source>
     <message>
         <location filename="dialogs/qerrormessage.cpp" line="167"/>
         <source>Debug Message:</source>
-        <translation>调试讯息:</translation>
+        <translation>调试信息:</translation>
     </message>
     <message>
         <location filename="dialogs/qerrormessage.cpp" line="170"/>
@@ -14842,7 +14852,7 @@ Press ESC to cancel</source>
     <message>
         <location filename="dialogs/qerrormessage.cpp" line="371"/>
         <source>&amp;Show this message again</source>
-        <translation>再次显示此讯息(&amp;S)</translation>
+        <translation>再次显示此信息(&amp;S)</translation>
     </message>
     <message>
         <location filename="dialogs/qerrormessage.cpp" line="372"/>
